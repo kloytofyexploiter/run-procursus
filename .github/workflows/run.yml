@@ -9,11 +9,11 @@ on:
       target:
         description: "Target to build for (e.g iphoneos-arm64)"
         required: false
-        default: "iphoneos-arm64"
+        default: "iphoneos-arm64-rootless"
       cfver:
         description: "iOS version to build for (e.g 1800 for iOS 15)"
         required: false
-        default: "1700"
+        default: "1800"
       source:
         description: "Specific Procursus repository (e.g ProcursusTeam/Procursus)"
         required: false
